@@ -285,13 +285,5 @@ Calling convention (simplified):
 - Callee allocates locals with `ALLOC_STACK`, returns with `RET`.
 - Function result is in register `R1`.
 
-## Known limitations
 
-- Integers only; no floats, strings, or arrays
-- Immediate values in instructions are 12-bit signed (roughly −2048 … 2047) for `MOV_IMM`
-- `%` modulo is not fully supported in code generation
-- `elif` is not supported (use `if` / `else`)
-- No `break` / `continue`
-- Single-threaded; no modules or imports
-- `build.bat` is Windows/MSVC-specific
 
