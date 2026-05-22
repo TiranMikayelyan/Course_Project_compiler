@@ -1,0 +1,15 @@
+func square(n) {
+    return n * n:
+}
+
+func add(a, b) {
+    return a + b:
+}
+
+func main() {
+    local sum = 0:
+    for (local i = 0 : i < 4 : i = i + 1) {
+        sum = add(sum, square(i)):
+    }
+    print(sum):
+}

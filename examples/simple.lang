@@ -1,0 +1,8 @@
+global g = 0:
+static s = 10:
+
+func main() {
+    g = 5:
+    local x = 2:
+    print(g + s + x):
+}

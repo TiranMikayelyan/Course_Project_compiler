@@ -1,0 +1,16 @@
+global counter = 0:
+static total = 0:
+
+func main() {
+    static calls = 0:
+    local i = 0:
+    while (i < 3) {
+        calls = calls + 1:
+        counter = counter + 1:
+        total = total + counter:
+        i = i + 1:
+    }
+    print(total):
+    print(calls):
+    print(counter):
+}
